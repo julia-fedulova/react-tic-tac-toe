@@ -54,7 +54,6 @@ class Game extends Component {
       let status
       if(winner) {
         status = 'Выиграл: ' + winner
-
       } else if(this.state.history.length === 10) {
         status = 'Ничья!'
       } else {
